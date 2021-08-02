@@ -5,9 +5,10 @@ const express = require("express");
 const mongoose = require("mongoose");
 const Product = require("./models/Product");
 
+// Utiliser votre lien de  votre DB
 mongoose
     .connect(
-        "mongodb+srv://quentingeerts:Test123=@cluster0.w3eho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "mongodb+srv://user:password@cluster0.w3eho.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         { useNewUrlParser: true, useUnifiedTopology: true }
     )
     .then(() => console.log("Connexion à la base de données a réussie."))

@@ -17,3 +17,5 @@ Démarrer le serveur node grâce à la commande `node server` ou `nodemon server
 
 ### Dans le terminal _Frontend_
 Démarrer l'application grâce à la commande `npm start`.
+
+## Changer la connexion pour votre base de données. 😃
